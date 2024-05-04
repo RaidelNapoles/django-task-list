@@ -1,0 +1,39 @@
+Desarrollo de una API de Gestión de Tareas
+
+Objetivo:
+Desarrollar una API RESTful utilizando Django y Django REST Framework para gestionar tareas.
+
+Requisitos:
+
+1. Implementar modelos para representar las tareas, con los siguientes campos:
+   - Título de la tarea
+   - Descripción de la tarea
+   - Estado de la tarea (pendiente, en progreso, completada)
+   - Fecha de creación de la tarea
+   - Fecha de última modificación de la tarea
+2. Crear puntos finales (endpoints) para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en las tareas.
+3. Implementar autenticación de usuario utilizando tokens de acceso (Token Authentication) proporcionada por Django REST Framework.
+4. Utilizar Serializers de DRF para serializar y deserializar los datos de las tareas.
+5. Utilizar ViewSets y Routers de DRF para simplificar la creación de puntos finales y la gestión de las rutas.
+6. Implementar pruebas unitarias para los modelos y vistas utilizando la herramienta de pruebas de Django.
+7. Utilizar permisos de Django REST Framework para restringir el acceso a ciertos puntos finales según el usuario autenticado.
+
+Evaluación:
+
+1. Estructura del Proyecto: ¿El proyecto sigue una estructura clara y organizada, siguiendo las convenciones de Django?
+2. Limpieza del Código: ¿El código es limpio, legible y sigue las convenciones de codificación de Python y Django?
+3. Modelos: ¿Se han definido correctamente los modelos para representar las tareas y sus campos?
+4. Puntos Finales de la API: ¿Se han implementado correctamente los puntos finales para realizar operaciones CRUD en las tareas?
+5. Autenticación: ¿Se ha implementado correctamente la autenticación de usuario utilizando tokens de acceso?
+6. Serializers y ViewSets: ¿Se han utilizado Serializers y ViewSets de DRF de manera efectiva para serializar y deserializar datos y gestionar las vistas?
+7. Pruebas Unitarias: ¿Se han implementado pruebas unitarias para los modelos y vistas utilizando la herramienta de pruebas de Django?
+8. Permisos: ¿Se han configurado correctamente los permisos de DRF para restringir el acceso a ciertos puntos finales según el usuario autenticado?
+
+Extras (Opcionales):
+
+1. Implementar paginación para los resultados de la API.
+2. Utilizar Filtros y Ordenación de DRF para permitir a los usuarios filtrar y ordenar las tareas.
+3. Implementar un mecanismo de envío de correos electrónicos para notificar a los usuarios sobre cambios en las tareas.
+4. Utilizar Docker para contenerizar la aplicación y sus dependencias.
+
+Esta prueba proporcionará una evaluación exhaustiva de las habilidades del desarrollador backend en Django y DRF, incluyendo su capacidad para diseñar y desarrollar una API RESTful funcional y segura, escribir pruebas unitarias para garantizar la calidad del código, y seguir las mejores prácticas de desarrollo de Django y DRF.
