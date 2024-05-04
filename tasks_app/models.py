@@ -12,6 +12,7 @@ class Task(models.Model):
     state = models.CharField(max_length=3, choices=State.choices, default=State.PENDING)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    owner = models.ForeignKey('auth.User', related_name='tasks', on_delete=models.CASCADE)
 
     class Meta:
         ordering = ["created_at"]
